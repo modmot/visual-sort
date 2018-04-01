@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body{
+    font-family: 'Comfortaa';
+}
+header,
+footer {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+header hr {
+    margin: 30px 20% 15px 20%;
+    color: grey;
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+footer ul li {
+    padding: 1px 0;
+    margin: 1px 40%;
+}
+
+footer ul li:hover {
+    padding: 3px 0;
+    border: 1px solid #777;
+    border-radius: 6px;
+    box-shadow: 0 0 2px #777;
+    transition: border 0.1s linear;
+}
+
+footer hr {
+    margin: 65px 20% 0 20%;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.container {
+    text-align: center;
+    margin: 30px 20% 30px 20%;
+    padding: 20px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #777;
+}
+.container .todo {
+    text-align: left;
+    padding: 0 25%;
+}
+.container:hover{
+    box-shadow: 0 0 20px #777;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.btn{
+    background: white;
+    border-radius: 6px; 
+    border: 1px solid #777; 
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 21px;
+    text-decoration: none; 
+}
+.btn:hover{
+    box-shadow: 0 0 4px #777;
+}
+
+#canvas{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+}
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Visualisierung von Algorithmen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Visualisierung von Algorithmen</h1>
+    <hr>
+  </header>
+
+
+  <div class="container">
+    <div class="todo">
+      <p>
+        TODO:
+        <ol>
+          <li>see and study: <a href="http://www.gf-webdesign.de/sortieralgorithmen/sortieralgorithmen.htm">www.gf-webdesign.de</a></li>
+          <li>implement quicksort: <a href="http://www.vogella.com/tutorials/JavaAlgorithmsQuicksort/article.html">vogella.com</a></li>
+          <li>see javascript tutorial: <a href="http://www.w3schools.com/js/default.asp">w3</a></li>
+          <li>study w3css and optimize your web-design: <a href="http://www.w3schools.com/w3css/default.asp">w3</a></li>
+        </ol>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="sort">
+      <p>First click shuffle and then click a 'sort' button to handle animation</p>
+
+      <form>
+        <input class="btn" type="button" value="shuffle" onclick="shuffle();" />
+        <input class="btn" type="button" value="bubbleSort" onclick="start_bubblesort();" />
+        <input class="btn" type="button" value="quickSort" onclick="start_quicksort();" />
+        <input class="btn" type="button" value="selectionSort" onclick="start_selectionsort();" />
+        <input class="btn" type="button" value="shellSort" onclick="start_shellsort();" />
+      </form>
+
+      <p id="duration">
+        duration ...
+      </p>
+        <canvas id="canvas" width="600" height="400" style="background-color:white"></canvas>
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <hr>
+    
+    <ul>
+      <p>Source</p>
+      <li>
+        <a href="http://www.gf-webdesign.de/sortieralgorithmen/sortieralgorithmen.htm"> gf-webdesign.de</a>
+      </li>
+      <li>
+        <a href="http://sortieralgorithmen.de"> sortieralgorithmen.de</a>
+      </li>
+      <li>
+        <a href="http://www.vogella.com/tutorials/JavaAlgorithmsQuicksort/article.html"> vogella.com</a>
+      </li>
+      <li>
+        <a href="http://www.w3schools.com/w3css/default.asp"> w3schools.com</a>
+      </li>
+    </ul>
+    <p>Matthias Oberholzer (2018)</p>
+  </footer>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>

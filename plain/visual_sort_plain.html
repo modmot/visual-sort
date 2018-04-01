@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Visualisierung von Algorithmen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<h1>Visualisierung von Algorithmen</h1>
+	</header>
+
+	<p>by modmot (2018)</p>
+
+	
+
+
+
+	<p>First click shuffle and then click a 'sort' button to handle animation</p>
+
+	<form>
+		<input type="button" value="shuffle" onclick="shuffle();" />
+		<input type="button" value="bubbleSort" onclick="start_bubblesort();" />
+		<input type="button" value="quickSort" onclick="start_quicksort();" />
+		<input type="button" value="selectionSort" onclick="start_selectionsort();" />
+		<input type="button" value="shellSort" onclick="start_shellsort();" />
+	</form>
+
+	<p id="duration">
+		duration ...
+	</p>
+
+	<p>
+		<canvas id="canvas" width="600" height="400" style="background-color:blue"></canvas>
+	</p>
+
+	<script lang="javascript" type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
